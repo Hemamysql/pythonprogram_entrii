@@ -1,0 +1,17 @@
+ 
+d=input("enter word ")
+x=0
+y=0
+for i in d :
+    if i=="z":
+        x=x+1
+    elif i=="o":
+        y=y+1
+#print(x)
+#print(y)
+
+if y==2*(x):
+    print("zoo type")
+else:
+    print("not zoo type")
+     
